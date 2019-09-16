@@ -1,0 +1,163 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*____________________CSS________________________*/
+
+/*_____________________Header____________________*/
+
+header {
+	text-align: center;
+	padding: 20px;
+	margin: 0 auto;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 43px;
+	padding: 15px;
+}
+.firsthr {
+	width: 40%;
+	color: black;
+	margin: 0 auto;
+}
+/*_______________mainbody__________________________*/
+/*.mainbody {
+	width: 90%;
+	margin: 0 auto;
+	
+}*/
+
+
+/*___________________SECTION-2__________________*/
+.sec2div1 {
+	text-align: center;
+	padding: 5px;
+	margin: 20px;
+
+}
+
+.sec2div1 h3 {
+	margin: 12px;
+	font-size: 18px;
+	word-spacing: 8px;
+	letter-spacing: 1px;
+}
+
+
+}
+hr {
+	margin-bottom: 10px;
+}
+/*_________________SECTION-3__________________*/
+
+.
+.sec3head {
+	text-align: center;
+	/*padding: 20px;*/
+	word-spacing: 8px;
+	letter-spacing: 1px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.special {
+	width: 40%;
+	margin: 30px auto;
+}
+
+/*________________SECTION-4_______________________*/
+
+/*.section4 .sec2div2 .sec2box1 {
+	border: 1px solid black;
+	display: inline-block;
+}
+.section4 .special {
+	margin-top: 20px;
+}
+.section4 .sec2div2 .sec2box1 {
+	display: inline-block;
+	width: 180px;
+	height: 100px;
+	background-color: grey;
+	margin: 3px;
+	padding: 0 7px; */
+
+
+
+/*------------------NEW--------------*/
+.parent {
+	margin: 0 auto;
+	width: 600px;
+	border: 1px solid black;
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+
+.child {
+	 height: 100px;
+	 width: 180px;
+	 margin: 10px;
+	 background-color: grey;
+	 display: inline-block;	
+	 box-sizing: border-box;
+/*	 padding: 10px;*/
+}
+
+h3{
+	text-align: center;
+	word-spacing: 8px;
+	letter-spacing: 1px;
+	font-size: 18px;
+	margin: 20px;
+}
+.border {
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+.child .border .size {
+	box-sizing: border-box;
+	font-size: 0;
+	display: inline-block;
+}
