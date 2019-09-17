@@ -1,70 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Boxmodel2 Project</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <title>project-1</title>
 </head>
+
 <body>
-	<header>
-		<h1 class="headtext">The Box Model , Box-sizing and The Box-Shadow </h1>		
-	</header>
-	<div class="firsthr">
-		<hr>
-	</div>
-	<section>
-		<div class="sec1div1">
-			<h2 class="exercise">Exercise 1</h2>
-		</div>
-			<div class="sec1div2">
+    <header>
+        <h1>the box model, box-sizing & box-shadow</h1>
+    </header>
+    <main>
 
-				<div class="square">
-					<div class="small"></div>
-				</div>
+        <div class="main-div">
+            <!-- exercise 1 -->
+            <hr>
+            <h2>Exercise 1 </h2>
+            <div class="box-model"></div>
+            <span class="span col1"></span>Content
+            <span class="span col2"></span>Padding
+            <span class="span col3"></span>Border
+            <span class="span col4"></span>Margin
 
-				<div class="list">
-					<ul>
-						<li><span class="btn btn1"></span>Content</li>
-						<li><span class="btn btn2"></span>Margin</li>
-						<li><span class="btn btn3"></span>Border</li>
-						<li><span class="btn btn4"></span>Padding</li>
-					</ul>
+        </div>
+        <!-- exercise-2 -->
+        <section style="text-align: center">
+            <hr>
+            <h2>Exercise 2</h2>
+            <h3>no border on these boxes</h3>
+            <div class="parentbox">
+                <div class="childbox"></div>
+                <div class="childbox"></div>
+                <div class="childbox"></div>
+            </div>
+        </section>
 
-				</div>
-					<hr class="special">
-				</div>
-			</section>
+        <!-- second box -->
+        <div class="middle">
+            <hr>
+            <h3>1px border on these boxes</h3>
+            <div class="parentbox">
+    			<div class="childbox border"></div>
+	            <div class="childbox border"></div>
+	            <div class="childbox border"></div>
+             </div>
+        </div>
 
-		<section class="sec2">
-			<h3>Exercise 2</h3>
-			<p>No border on these boxes</p>
-			<div class="parentbox1">
-				<div class="childbox1"></div>
-				<div class="childbox1"></div>
-				<div class="childbox1"></div>
-			</div>
-		</section>
-		<br>
-		<br>
-		<hr class="special">
-		<section class="sec3">
-			<p>1px border on these boxes</p>
-			<div class="parentbox2">
-				<div class="childbox2"></div>
-				<div class="childbox2"></div>
-				<div class="childbox2"></div>
-			</div>
-		</section>
-		<section class="sec4">
-			<p>1px border on these boxes but they are inline</p>
-			<div class="parentbox3">
-				<div class="childbox3"></div>
-				<div class="childbox3"></div>
-				<div class="childbox3"></div>
-			</div>
-		</section>
-
-		
-
+        <!-- last -->
+        <div class="last-div" style="text-align: center">
+            <hr>
+            <h3>1px border on these boxes but they are in same line</h3>
+            <div class="parentbox">
+                <div class="sm-box-border"></div>
+                <div class="sm-box-border"></div>
+                <div class="sm-box-border"></div>
+            </div>
+        </div>
+    </main>
 
 </body>
+
 </html>
